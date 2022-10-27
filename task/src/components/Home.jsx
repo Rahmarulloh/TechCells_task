@@ -1,35 +1,34 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export default class Home extends Component {
-  render() {
-    return (
-      <div className='home'>
+
+function Home() {
+  return (
+    <div className="home">
 
         <div className="home__header">
 
           <h1>EasyChecker</h1>
 
-          <h1 className='header__logo'>Tech<span>Cells</span></h1>
+          <h1 className="header__logo">
+            Tech<span>Cells</span>
+          </h1>
 
         </div>
 
         <div className="home__main-section">
 
-            <h3 className="main-section__greet">
-              Welcome to TechCells!
-            </h3>
+          <h3 className="main-section__greet">Welcome to TechCells!</h3>
 
-            <h2 className="main-section__title">
-              Do you want to clock-in/out ?
-            </h2>
+          <h2 className="main-section__title">Do you want to clock-in/out ?</h2>
 
-            <button className="main-section__btn">
-              Clock-in/out
-            </button>
+          <button className="main-section__btn">
+            Clock-in/out
+          </button>
 
         </div>
 
       </div>
-    )
-  }
+  )
 }
+
+export default Home;

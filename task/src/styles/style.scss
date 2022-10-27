@@ -43,6 +43,7 @@
         background: #EEF5DB;
         flex-direction: column;
         font-family: sans-serif;
+        border-radius: 1.5rem;
         justify-content: space-evenly;
 
         &>.main-section__btn {
@@ -52,6 +53,7 @@
             cursor: pointer;
             font-size: 1.5rem;
             background: transparent;
+            border-radius: 6.25rem;
             border: 0.125rem solid #01A098;
 
             &:hover {
