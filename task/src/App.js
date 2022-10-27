@@ -13,22 +13,7 @@ const App = () => {
 
         <Pin/>
 
-      {/* <AuthContext.Provider value={(isChecked, setIsChecked)}>
-        {
-        isChecked ?
-          <Routes>
-            {route1.map((data) => {
-              return <Route path={data.path} element={data.element} />;
-            })}
-          </Routes>
-        :
-          <Routes>
-            {route2.map((data) => {
-              return <Route path={data.path} element={data.element} />;
-            })}
-          </Routes>
-        }
-      </AuthContext.Provider> */}
+      
     </div>
   );
 };
